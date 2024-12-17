@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Hack';
+  src:url('Hack.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
+body, html {
+  overflow: none;
+  height: 100%;
+}
+
+body {
+  font-family: "Hack";
+  padding: 5px;
+  outline: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+body > div {
+
+}
+
+*:focus {
+  outline: none;
+}
+section {
+  text-align: center;
+}
+td {
+  border-radius: 3px;
+  }
+time {
+  background-color: #E2E7E9;
+  padding: 5px;
+  border-radius: 3px;
+  margin-bottom: 4px;
+  display: inline-block;
+}
+time > span {
+  display: inline-block;
+}
+svg {
+  width: 0.8em;
+  display: inline;
+  margin-right: 4px;
+  /* margin:5px; */
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #88888800;
+  border-radius: 15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  cursor: pointer;
+}
